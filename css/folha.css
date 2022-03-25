@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?família=Montserrat+Suplentes:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+nav{
+    height: 60px;
+    background-image: linear-gradient(rgb(97, 6, 6),rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+
+}
+.imagen{
+    cursor: pointer;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul li{
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+}
+nav ul li a{
+    color: aliceblue;
+}
+a:hover{
+    color: rgb(255, 20, 147);
+}
+
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;  
+}
+
+.bloco_foto{
+    background-image: url(../img/img-principal.png);
+    border-radius: 12px;
+    width: 650px;
+    height: 400px;
+    background-color: black;
+}
+
+.bloco2_sobre{
+    background-image: url(../img/img-principal.png);
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 300px;
+    height: 150px;
+    background-color: black;
+}
