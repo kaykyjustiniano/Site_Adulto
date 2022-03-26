@@ -6,9 +6,13 @@
     
 }
 
+body{
+    background-image: url(../img/background.jpg);
+}
+
 nav{
     height: 60px;
-    background-image: linear-gradient(rgb(97, 6, 6),rgb(0, 0, 0));
+    background-color: rgba(37, 36, 39, 0.644);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +42,7 @@ nav ul li a{
     color: aliceblue;
 }
 a:hover{
-    color: rgb(255, 20, 147);
+    color: rgb(189, 29, 204);
 }
 
 
@@ -49,19 +53,64 @@ a:hover{
     margin-top: 100px;  
 }
 
+.bloco_pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
 .bloco_foto{
-    background-image: url(../img/img-principal.png);
+    background-image: url(../person-img/person1.jpg);
     border-radius: 12px;
     width: 650px;
     height: 400px;
-    background-color: black;
+    background-color: rgba(122, 118, 124, 0.699);
 }
 
 .bloco2_sobre{
-    background-image: url(../img/img-principal.png);
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
     border-radius: 6px;
     margin-left: 20px;
     width: 300px;
     height: 150px;
-    background-color: black;
+    background-color: rgba(122, 118, 124, 0.699);
+}
+.perfil{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.perfil img{
+    width: 150px;
+}
+
+.contacts{
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contacts img{
+    width: 30px;
+}
+.contacts input{
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: none;
+    box-shadow:none;
+    width: 60px;
+    height: 30px;
+    color: rgb(189, 29, 204);
+    outline: 0;
+}
+
+.bloco2_descricao{
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 230px;
+    background-color: rgba(122, 118, 124, 0.699);
 }
